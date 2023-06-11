@@ -1,0 +1,25 @@
+.sevrice_item {
+  padding: 20px;
+  background: var(--card-bg-01);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.sevrice_item span i {
+  font-size: 2rem;
+  background: var(--primary-color);
+  padding: 2px;
+  border-radius: 50px;
+  color: white;
+
+}
+.sevrice_item h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.sevrice_item p {
+  font-size: 12px;
+  font-weight: 400;
+}
+

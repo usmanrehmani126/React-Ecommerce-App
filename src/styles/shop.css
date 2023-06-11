@@ -1,0 +1,29 @@
+.filter_widget select {
+  padding: 8px 16px;
+  border: 1px solid var(--primary-color);
+  outline: none;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+}
+.search-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 3px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.search-box input {
+  width: 100%;
+  outline: none;
+  padding: 6px 12px;
+  border: none;
+}
+.search-box input::placeholder {
+  color: black;
+  font-size: 0.9rem;
+}

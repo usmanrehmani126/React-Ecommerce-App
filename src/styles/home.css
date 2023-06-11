@@ -1,0 +1,108 @@
+.hero_section {
+  background-color: var(--hero-bg);
+}
+.hero_content h2 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.nav_black {
+  background: black;
+}
+.hero_content p {
+  color: #111;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+ .buy_btn {
+  outline: none;
+  border: none;
+  background: var(--primary-color);
+  color: white;
+  padding: 8px 20px;
+}
+ .buy_btn a:hover {
+  color: white !important;
+}
+
+.section_title {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.timer-count {
+  background: var(--primary-color);
+  height: 300px;
+}
+.timer-count img {
+  width: 70% !important;
+  height: 70% !important;
+  object-fit: contain;
+}
+.clock_btn {
+  outline: none;
+  border: none;
+  background: white;
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 8px 20px;
+}
+.clock_btn a:hover {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 992px) {
+  .hero_content h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero_content h2 {
+    font-size: 1.6rem;
+  }
+  .hero_content p {
+    font-size: 0.9rem;
+  }
+  .hero_content .buy_btn {
+    padding: 4px 14px;
+    font-size: 1rem;
+  }
+  .section_title {
+    font-size: 1.5rem;
+  }
+  .timer-count img{
+    display: none;
+  }
+  .clock_btn {
+font-size: 1rem;
+    padding: 6px 16px;
+  }
+  .clock_top-content h3{
+    font-size: 1.3rem !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero_content h2 {
+    font-size: 1.2rem;
+  }
+  .hero_content p {
+    font-size: 0.8rem;
+  }
+  .hero_content .buy_btn {
+    padding: 3px 10px;
+    font-size: 0.7rem;
+  }
+  .section_title {
+    font-size: 1.1rem;
+  }
+  .clock_btn {
+    font-size: 0.8rem;
+        padding: 4px 12px;
+      }
+      .clock_top-content h3{
+        font-size: 1rem !important;
+      }
+}

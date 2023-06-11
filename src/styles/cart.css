@@ -1,0 +1,21 @@
+.table tr td img {
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: cover;
+}
+td  i{
+    cursor: pointer;
+}
+td{
+    color: var(--primary-color);
+}
+.buy_button {
+  outline: none;
+  border: none;
+  background: var(--primary-color);
+  color: white;
+  padding: 6px 16px;
+}
+.buy_button a:hover{
+  color: white;
+}
